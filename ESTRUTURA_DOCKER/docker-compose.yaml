@@ -1,0 +1,61 @@
+
+services:
+  postgres:
+    image: postgres:13
+    container_name: postgres_airflow
+    restart: always
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./db:/var/lib/postgresql/data  # Persistência dos dados do banco
+      - ./init/init.sql:/docker-entrypoint-initdb.d/init.sql  # Rodar script de inicialização
+    networks:
+      - airflow_network
+
+  airflow:
+    build: .  # Construir a imagem do Dockerfile do Airflow com Spark
+    container_name: airflow_pyspark
+    restart: always
+    environment:
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      - AIRFLOW__WEBSERVER__DEFAULT_UI_TIMEZONE=America/Sao_Paulo
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres_airflow:5432/airflow
+      - SPARK_HOME=/usr/local/spark
+      - HADOOP_CONF_DIR=/usr/local/hadoop/etc/hadoop  # Diretório de configuração do Hadoop
+      - YARN_CONF_DIR=/usr/local/hadoop/etc/hadoop  # Diretório de configuração do YARN
+    depends_on:
+      - postgres
+      - hadoop  # Espera que o Hadoop esteja rodando
+    ports:
+      - "8180:8080"  # Mapeia a porta do Airflow para 8180
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./logs:/opt/airflow/logs
+      - ./plugins:/opt/airflow/plugins
+      - ./scripts:/opt/airflow/scripts
+      - ./data:/opt/airflow/data
+    networks:
+      - airflow_network
+
+  hadoop:
+    build: ./hadoop  # Pasta onde está o Dockerfile para a imagem do Hadoop
+    container_name: hadoop_container
+    restart: always
+    environment:
+      - HADOOP_HOME=/usr/local/hadoop
+      - HADOOP_CONF_DIR=/usr/local/hadoop/etc/hadoop
+    ports:
+      - "55000:50070"  # Porta do HDFS
+      - "8088:8088"    # Porta do ResourceManager
+      - "8032:8032"    # Porta do YARN ResourceManager
+    networks:
+      - airflow_network
+
+networks:
+  airflow_network:
+    driver: bridge

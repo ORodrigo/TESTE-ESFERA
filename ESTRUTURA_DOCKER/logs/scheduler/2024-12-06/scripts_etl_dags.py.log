@@ -1,0 +1,1086 @@
+[2024-12-06T17:08:30.812+0000] {processor.py:153} INFO - Started process (PID=205) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:08:30.813+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:08:30.813+0000] {logging_mixin.py:137} INFO - [2024-12-06T17:08:30.813+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:08:30.826+0000] {logging_mixin.py:137} INFO - [2024-12-06T17:08:30.823+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/scripts_etl_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/scripts_etl_dags.py", line 2, in <module>
+    from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-12-06T17:08:30.827+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:08:30.869+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.060 seconds
+[2024-12-06T17:09:01.084+0000] {processor.py:153} INFO - Started process (PID=241) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:09:01.085+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:09:01.086+0000] {logging_mixin.py:137} INFO - [2024-12-06T17:09:01.086+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:09:01.101+0000] {logging_mixin.py:137} INFO - [2024-12-06T17:09:01.098+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/scripts_etl_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/scripts_etl_dags.py", line 2, in <module>
+    from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-12-06T17:09:01.102+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:09:01.137+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.056 seconds
+[2024-12-06T17:09:31.363+0000] {processor.py:153} INFO - Started process (PID=251) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:09:31.364+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:09:31.365+0000] {logging_mixin.py:137} INFO - [2024-12-06T17:09:31.365+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:09:31.376+0000] {logging_mixin.py:137} INFO - [2024-12-06T17:09:31.374+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/scripts_etl_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/scripts_etl_dags.py", line 2, in <module>
+    from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-12-06T17:09:31.377+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:09:31.415+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.056 seconds
+[2024-12-06T17:10:01.630+0000] {processor.py:153} INFO - Started process (PID=261) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:10:01.631+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:10:01.632+0000] {logging_mixin.py:137} INFO - [2024-12-06T17:10:01.632+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:10:01.644+0000] {logging_mixin.py:137} INFO - [2024-12-06T17:10:01.641+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/scripts_etl_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/scripts_etl_dags.py", line 2, in <module>
+    from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-12-06T17:10:01.645+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:10:01.681+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.054 seconds
+[2024-12-06T17:10:31.914+0000] {processor.py:153} INFO - Started process (PID=271) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:10:31.915+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:10:31.915+0000] {logging_mixin.py:137} INFO - [2024-12-06T17:10:31.915+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:10:31.926+0000] {logging_mixin.py:137} INFO - [2024-12-06T17:10:31.924+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/scripts_etl_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/scripts_etl_dags.py", line 2, in <module>
+    from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-12-06T17:10:31.926+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:10:31.964+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.053 seconds
+[2024-12-06T17:14:11.453+0000] {processor.py:186} INFO - Started process (PID=168) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:14:11.454+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:14:11.457+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:14:11.457+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:14:11.475+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:14:11.497+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:14:11.497+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:14:11.523+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:14:11.522+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:14:11.553+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.107 seconds
+[2024-12-06T17:14:41.847+0000] {processor.py:186} INFO - Started process (PID=203) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:14:41.848+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:14:41.850+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:14:41.850+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:14:41.866+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:14:41.962+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:14:41.961+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:14:41.984+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:14:41.983+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:14:42.013+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.171 seconds
+[2024-12-06T17:15:12.107+0000] {processor.py:186} INFO - Started process (PID=214) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:15:12.108+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:15:12.110+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:15:12.110+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:15:12.125+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:15:12.154+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:15:12.154+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:15:12.179+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:15:12.179+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:15:12.214+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.113 seconds
+[2024-12-06T17:15:42.495+0000] {processor.py:186} INFO - Started process (PID=267) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:15:42.496+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:15:42.498+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:15:42.497+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:15:42.511+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:15:42.540+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:15:42.540+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:15:42.563+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:15:42.563+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:15:42.591+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.101 seconds
+[2024-12-06T17:16:12.889+0000] {processor.py:186} INFO - Started process (PID=277) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:16:12.891+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:16:12.893+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:16:12.893+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:16:12.908+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:16:12.939+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:16:12.939+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:16:12.965+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:16:12.965+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:16:12.990+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.107 seconds
+[2024-12-06T17:16:43.303+0000] {processor.py:186} INFO - Started process (PID=287) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:16:43.305+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:16:43.307+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:16:43.307+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:16:43.320+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:16:43.348+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:16:43.348+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:16:43.371+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:16:43.371+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:16:43.398+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.100 seconds
+[2024-12-06T17:17:13.634+0000] {processor.py:186} INFO - Started process (PID=297) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:17:13.635+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:17:13.637+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:17:13.637+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:17:13.654+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:17:13.684+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:17:13.684+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:17:13.708+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:17:13.708+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:17:13.731+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.101 seconds
+[2024-12-06T17:17:44.005+0000] {processor.py:186} INFO - Started process (PID=307) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:17:44.006+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:17:44.008+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:17:44.008+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:17:44.025+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:17:44.053+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:17:44.053+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:17:44.078+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:17:44.077+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:17:44.101+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.102 seconds
+[2024-12-06T17:18:14.390+0000] {processor.py:186} INFO - Started process (PID=317) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:18:14.391+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:18:14.393+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:18:14.393+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:18:14.409+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:18:14.438+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:18:14.438+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:18:14.461+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:18:14.461+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:18:14.496+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.112 seconds
+[2024-12-06T17:18:44.762+0000] {processor.py:186} INFO - Started process (PID=327) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:18:44.763+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:18:44.765+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:18:44.765+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:18:44.782+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:18:44.808+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:18:44.808+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:18:44.830+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:18:44.830+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:18:44.862+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.106 seconds
+[2024-12-06T17:19:59.626+0000] {processor.py:186} INFO - Started process (PID=167) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:19:59.627+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:19:59.630+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:19:59.630+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:19:59.650+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:19:59.694+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:19:59.694+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:19:59.731+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:19:59.731+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:19:59.759+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.140 seconds
+[2024-12-06T17:20:29.995+0000] {processor.py:186} INFO - Started process (PID=239) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:20:29.995+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:20:29.998+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:20:29.998+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:20:30.012+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:20:30.041+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:20:30.041+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:20:30.066+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:20:30.066+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:20:30.094+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.105 seconds
+[2024-12-06T17:21:00.413+0000] {processor.py:186} INFO - Started process (PID=249) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:21:00.414+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:21:00.419+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:21:00.418+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:21:00.440+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:21:00.476+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:21:00.476+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:21:00.505+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:21:00.504+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:21:00.533+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.131 seconds
+[2024-12-06T17:21:30.804+0000] {processor.py:186} INFO - Started process (PID=259) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:21:30.806+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:21:30.809+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:21:30.809+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:21:30.825+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:21:30.856+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:21:30.856+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:21:30.883+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:21:30.883+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:21:30.913+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.115 seconds
+[2024-12-06T17:22:01.184+0000] {processor.py:186} INFO - Started process (PID=269) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:22:01.185+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:22:01.187+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:22:01.187+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:22:01.204+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:22:01.233+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:22:01.232+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:22:01.258+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:22:01.257+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:22:01.287+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.109 seconds
+[2024-12-06T17:22:31.526+0000] {processor.py:186} INFO - Started process (PID=279) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:22:31.527+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:22:31.529+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:22:31.529+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:22:31.549+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:22:31.585+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:22:31.585+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:22:31.612+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:22:31.612+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:22:31.645+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.125 seconds
+[2024-12-06T17:23:01.937+0000] {processor.py:186} INFO - Started process (PID=289) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:23:01.938+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:23:01.940+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:23:01.940+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:23:01.953+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:23:01.982+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:23:01.982+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:23:02.008+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:23:02.008+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:23:02.040+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.108 seconds
+[2024-12-06T17:23:32.367+0000] {processor.py:186} INFO - Started process (PID=299) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:23:32.368+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:23:32.370+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:23:32.370+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:23:32.385+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:23:32.415+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:23:32.415+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:23:32.439+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:23:32.439+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:23:32.469+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.109 seconds
+[2024-12-06T17:24:02.825+0000] {processor.py:186} INFO - Started process (PID=309) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:24:02.825+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:24:02.828+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:24:02.828+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:24:02.843+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:24:02.875+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:24:02.874+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:24:02.898+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:24:02.898+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:24:02.929+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.110 seconds
+[2024-12-06T17:24:33.263+0000] {processor.py:186} INFO - Started process (PID=319) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:24:33.264+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:24:33.266+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:24:33.266+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:24:33.280+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:24:33.309+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:24:33.309+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:24:33.336+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:24:33.336+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:24:33.368+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.110 seconds
+[2024-12-06T17:25:03.672+0000] {processor.py:186} INFO - Started process (PID=329) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:25:03.673+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:25:03.676+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:25:03.676+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:25:03.690+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:25:03.717+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:25:03.717+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:25:03.741+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:25:03.741+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:25:03.766+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.100 seconds
+[2024-12-06T17:25:34.074+0000] {processor.py:186} INFO - Started process (PID=339) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:25:34.075+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:25:34.076+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:25:34.076+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:25:34.090+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:25:34.119+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:25:34.119+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:25:34.143+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:25:34.143+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:25:34.166+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.098 seconds
+[2024-12-06T17:26:04.501+0000] {processor.py:186} INFO - Started process (PID=349) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:26:04.502+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:26:04.505+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:26:04.505+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:26:04.518+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:26:04.546+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:26:04.546+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:26:04.571+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:26:04.571+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:26:04.600+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.104 seconds
+[2024-12-06T17:26:34.760+0000] {processor.py:186} INFO - Started process (PID=359) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:26:34.761+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:26:34.763+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:26:34.763+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:26:34.779+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:26:34.807+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:26:34.807+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:26:34.830+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:26:34.830+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:26:34.855+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.101 seconds
+[2024-12-06T17:27:05.100+0000] {processor.py:186} INFO - Started process (PID=369) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:27:05.101+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:27:05.103+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:27:05.103+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:27:05.118+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:27:05.151+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:27:05.150+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:27:05.181+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:27:05.181+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:27:05.211+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.117 seconds
+[2024-12-06T17:27:35.456+0000] {processor.py:186} INFO - Started process (PID=379) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:27:35.457+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:27:35.460+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:27:35.460+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:27:35.475+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:27:35.502+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:27:35.502+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:27:35.528+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:27:35.527+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:27:35.560+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.110 seconds
+[2024-12-06T17:28:05.796+0000] {processor.py:186} INFO - Started process (PID=389) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:28:05.796+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:28:05.798+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:28:05.798+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:28:05.816+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:28:05.845+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:28:05.845+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:28:05.871+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:28:05.871+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:28:05.901+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.112 seconds
+[2024-12-06T17:28:36.140+0000] {processor.py:186} INFO - Started process (PID=399) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:28:36.141+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:28:36.144+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:28:36.144+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:28:36.157+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:28:36.186+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:28:36.186+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:28:36.211+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:28:36.211+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:28:36.247+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.112 seconds
+[2024-12-06T17:29:06.524+0000] {processor.py:186} INFO - Started process (PID=409) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:29:06.525+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:29:06.527+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:29:06.527+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:29:06.542+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:29:06.573+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:29:06.572+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:29:06.600+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:29:06.600+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:29:06.625+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.106 seconds
+[2024-12-06T17:29:36.913+0000] {processor.py:186} INFO - Started process (PID=419) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:29:36.914+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:29:36.917+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:29:36.916+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:29:36.931+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:29:36.963+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:29:36.963+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:29:36.988+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:29:36.988+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:29:37.021+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.113 seconds
+[2024-12-06T17:30:07.343+0000] {processor.py:186} INFO - Started process (PID=429) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:30:07.344+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:30:07.346+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:30:07.346+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:30:07.361+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:30:07.394+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:30:07.394+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:30:07.419+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:30:07.419+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:30:07.449+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.112 seconds
+[2024-12-06T17:30:23.844+0000] {processor.py:186} INFO - Started process (PID=167) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:30:23.845+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:30:23.848+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:30:23.848+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:30:23.866+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:30:23.904+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:30:23.903+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:30:23.937+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:30:23.937+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:30:23.961+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.122 seconds
+[2024-12-06T17:30:54.074+0000] {processor.py:186} INFO - Started process (PID=251) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:30:54.074+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:30:54.076+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:30:54.076+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:30:54.091+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:30:54.122+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:30:54.122+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:30:54.146+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:30:54.146+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:30:54.177+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.109 seconds
+[2024-12-06T17:31:24.461+0000] {processor.py:186} INFO - Started process (PID=261) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:31:24.462+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:31:24.464+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:31:24.464+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:31:24.482+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:31:24.521+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:31:24.521+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:31:24.557+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:31:24.557+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:31:24.587+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.133 seconds
+[2024-12-06T17:31:54.877+0000] {processor.py:186} INFO - Started process (PID=271) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:31:54.878+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:31:54.880+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:31:54.880+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:31:54.897+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:31:54.925+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:31:54.925+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:31:54.950+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:31:54.949+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:31:54.992+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.120 seconds
+[2024-12-06T17:32:25.282+0000] {processor.py:186} INFO - Started process (PID=281) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:32:25.283+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:32:25.286+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:32:25.285+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:32:25.301+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:32:25.332+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:32:25.332+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:32:25.358+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:32:25.358+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:32:25.389+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.113 seconds
+[2024-12-06T17:32:55.656+0000] {processor.py:186} INFO - Started process (PID=291) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:32:55.657+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:32:55.660+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:32:55.660+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:32:55.674+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:32:55.705+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:32:55.705+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:32:55.732+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:32:55.732+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:32:55.773+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.123 seconds
+[2024-12-06T17:33:25.986+0000] {processor.py:186} INFO - Started process (PID=301) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:33:25.987+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:33:25.989+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:33:25.988+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:33:26.002+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:33:26.029+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:33:26.029+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:33:26.055+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:33:26.055+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:33:26.084+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.103 seconds
+[2024-12-06T17:33:56.330+0000] {processor.py:186} INFO - Started process (PID=311) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:33:56.331+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:33:56.333+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:33:56.332+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:33:56.348+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:33:56.376+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:33:56.376+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:33:56.400+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:33:56.400+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:33:56.429+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.105 seconds
+[2024-12-06T17:34:26.728+0000] {processor.py:186} INFO - Started process (PID=321) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:34:26.729+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:34:26.731+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:34:26.731+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:34:26.744+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:34:26.772+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:34:26.772+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:34:26.795+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:34:26.795+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:34:26.824+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.102 seconds
+[2024-12-06T17:34:57.067+0000] {processor.py:186} INFO - Started process (PID=331) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:34:57.068+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:34:57.072+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:34:57.071+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:34:57.089+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:34:57.120+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:34:57.120+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:34:57.146+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:34:57.146+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:34:57.179+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.119 seconds
+[2024-12-06T17:35:27.385+0000] {processor.py:186} INFO - Started process (PID=341) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:35:27.386+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:35:27.388+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:35:27.388+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:35:27.402+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:35:27.430+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:35:27.430+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:35:27.457+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:35:27.456+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:35:27.486+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.106 seconds
+[2024-12-06T17:35:57.773+0000] {processor.py:186} INFO - Started process (PID=351) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:35:57.774+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:35:57.775+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:35:57.775+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:35:57.792+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:35:57.823+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:35:57.822+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:35:57.853+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:35:57.853+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:35:57.883+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.116 seconds
+[2024-12-06T17:36:28.140+0000] {processor.py:186} INFO - Started process (PID=361) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:36:28.140+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:36:28.143+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:36:28.142+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:36:28.159+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:36:28.192+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:36:28.192+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:36:28.220+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:36:28.220+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:36:28.249+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.116 seconds
+[2024-12-06T17:36:58.381+0000] {processor.py:186} INFO - Started process (PID=371) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:36:58.382+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:36:58.384+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:36:58.384+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:36:58.402+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:36:58.430+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:36:58.430+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:36:58.457+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:36:58.457+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:36:58.490+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.116 seconds
+[2024-12-06T17:37:28.735+0000] {processor.py:186} INFO - Started process (PID=389) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:37:28.736+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:37:28.737+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:37:28.737+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:37:28.754+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:37:28.787+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:37:28.787+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:37:28.814+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:37:28.813+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:37:28.844+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.114 seconds
+[2024-12-06T17:37:59.145+0000] {processor.py:186} INFO - Started process (PID=400) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:37:59.146+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:37:59.148+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:37:59.148+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:37:59.163+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:37:59.198+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:37:59.198+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:37:59.224+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:37:59.224+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:37:59.256+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.119 seconds
+[2024-12-06T17:38:46.487+0000] {processor.py:186} INFO - Started process (PID=167) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:38:46.488+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:38:46.492+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:38:46.491+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:38:46.512+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:38:46.549+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:38:46.549+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:38:46.583+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:38:46.583+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:38:46.618+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.138 seconds
+[2024-12-06T17:39:16.857+0000] {processor.py:186} INFO - Started process (PID=251) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:39:16.858+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:39:16.861+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:39:16.861+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:39:16.874+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:39:16.903+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:39:16.903+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:39:16.935+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:39:16.934+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:39:16.966+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.115 seconds
+[2024-12-06T17:39:47.247+0000] {processor.py:186} INFO - Started process (PID=261) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:39:47.248+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:39:47.251+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:39:47.251+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:39:47.269+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:39:47.299+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:39:47.299+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:39:47.328+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:39:47.328+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:39:47.359+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.119 seconds
+[2024-12-06T17:40:17.690+0000] {processor.py:186} INFO - Started process (PID=279) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:40:17.691+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:40:17.695+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:40:17.694+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:40:17.710+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:40:17.742+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:40:17.741+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:40:17.768+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:40:17.768+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:40:17.799+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.115 seconds
+[2024-12-06T17:40:48.079+0000] {processor.py:186} INFO - Started process (PID=289) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:40:48.080+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:40:48.083+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:40:48.083+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:40:48.097+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:40:48.127+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:40:48.127+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:40:48.157+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:40:48.157+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:40:48.189+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.117 seconds
+[2024-12-06T17:41:18.437+0000] {processor.py:186} INFO - Started process (PID=299) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:41:18.438+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:41:18.440+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:41:18.440+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:41:18.454+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:41:18.483+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:41:18.483+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:41:18.509+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:41:18.509+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:41:18.543+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.113 seconds
+[2024-12-06T17:41:48.852+0000] {processor.py:186} INFO - Started process (PID=309) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:41:48.853+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:41:48.856+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:41:48.855+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:41:48.869+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:41:48.901+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:41:48.901+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:41:48.928+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:41:48.928+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:41:48.961+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.115 seconds
+[2024-12-06T17:42:19.235+0000] {processor.py:186} INFO - Started process (PID=319) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:42:19.236+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:42:19.238+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:42:19.238+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:42:19.254+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:42:19.284+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:42:19.284+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:42:19.311+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:42:19.310+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:42:19.341+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.112 seconds
+[2024-12-06T17:42:49.629+0000] {processor.py:186} INFO - Started process (PID=329) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:42:49.630+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:42:49.632+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:42:49.632+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:42:49.646+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:42:49.673+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:42:49.673+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:42:49.699+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:42:49.699+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:42:49.730+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.107 seconds
+[2024-12-06T17:43:19.984+0000] {processor.py:186} INFO - Started process (PID=339) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:43:19.984+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:43:19.986+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:43:19.986+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:43:20.001+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:43:20.032+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:43:20.032+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:43:20.059+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:43:20.059+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:43:20.088+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.110 seconds
+[2024-12-06T17:43:50.335+0000] {processor.py:186} INFO - Started process (PID=349) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:43:50.336+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:43:50.338+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:43:50.338+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:43:50.355+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:43:50.384+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:43:50.384+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:43:50.409+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:43:50.409+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:43:50.439+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.110 seconds
+[2024-12-06T17:44:20.778+0000] {processor.py:186} INFO - Started process (PID=359) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:44:20.779+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:44:20.781+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:44:20.781+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:44:20.796+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:44:20.826+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:44:20.826+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:44:20.854+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:44:20.854+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:44:20.886+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.114 seconds
+[2024-12-06T17:44:51.108+0000] {processor.py:186} INFO - Started process (PID=369) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:44:51.109+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:44:51.112+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:44:51.112+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:44:51.127+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:44:51.155+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:44:51.155+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:44:51.186+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:44:51.185+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:44:51.219+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.116 seconds
+[2024-12-06T17:45:21.454+0000] {processor.py:186} INFO - Started process (PID=379) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:45:21.455+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:45:21.457+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:45:21.457+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:45:21.471+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:45:21.502+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:45:21.502+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:45:21.531+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:45:21.530+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:45:21.560+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.112 seconds
+[2024-12-06T17:45:51.788+0000] {processor.py:186} INFO - Started process (PID=389) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:45:51.790+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:45:51.792+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:45:51.792+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:45:51.808+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:45:51.837+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:45:51.836+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:45:51.862+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:45:51.862+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:45:51.888+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.106 seconds
+[2024-12-06T17:46:22.157+0000] {processor.py:186} INFO - Started process (PID=399) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:46:22.158+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:46:22.160+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:46:22.159+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:46:22.174+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:46:22.202+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:46:22.202+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:46:22.226+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:46:22.225+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:46:22.255+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.103 seconds
+[2024-12-06T17:46:52.516+0000] {processor.py:186} INFO - Started process (PID=409) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:46:52.516+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:46:52.519+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:46:52.518+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:46:52.534+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:46:52.561+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:46:52.561+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:46:52.585+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:46:52.585+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:46:52.614+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.104 seconds
+[2024-12-06T17:47:22.946+0000] {processor.py:186} INFO - Started process (PID=419) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:47:22.947+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:47:22.950+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:47:22.949+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:47:22.965+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:47:22.993+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:47:22.993+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:47:23.017+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:47:23.017+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:47:23.045+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.105 seconds
+[2024-12-06T17:47:53.334+0000] {processor.py:186} INFO - Started process (PID=429) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:47:53.335+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:47:53.337+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:47:53.337+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:47:53.351+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:47:53.380+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:47:53.380+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:47:53.404+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:47:53.403+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:47:53.433+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.105 seconds
+[2024-12-06T17:48:23.766+0000] {processor.py:186} INFO - Started process (PID=439) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:48:23.767+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:48:23.769+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:48:23.769+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:48:23.782+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:48:23.809+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:48:23.808+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:48:23.833+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:48:23.833+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:48:23.865+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.105 seconds
+[2024-12-06T17:48:54.213+0000] {processor.py:186} INFO - Started process (PID=449) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:48:54.214+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:48:54.216+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:48:54.216+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:48:54.231+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:48:54.261+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:48:54.261+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:48:54.284+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:48:54.284+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:48:54.315+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.107 seconds
+[2024-12-06T17:49:24.536+0000] {processor.py:186} INFO - Started process (PID=459) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:49:24.537+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:49:24.539+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:49:24.539+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:49:24.553+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:49:24.584+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:49:24.584+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:49:24.611+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:49:24.611+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:49:24.639+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.108 seconds
+[2024-12-06T17:49:54.936+0000] {processor.py:186} INFO - Started process (PID=469) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:49:54.937+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:49:54.939+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:49:54.939+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:49:54.954+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:49:54.983+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:49:54.983+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:49:55.007+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:49:55.007+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:49:55.033+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.104 seconds
+[2024-12-06T17:53:41.786+0000] {processor.py:186} INFO - Started process (PID=165) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:53:41.787+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:53:41.790+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:53:41.790+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:53:41.809+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:53:41.848+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:53:41.847+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:53:41.879+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:53:41.879+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:53:41.910+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.131 seconds
+[2024-12-06T17:54:12.015+0000] {processor.py:186} INFO - Started process (PID=251) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:54:12.016+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:54:12.018+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:54:12.018+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:54:12.034+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:54:12.067+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:54:12.066+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:54:12.096+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:54:12.096+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:54:12.130+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.121 seconds
+[2024-12-06T17:54:42.370+0000] {processor.py:186} INFO - Started process (PID=261) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:54:42.371+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:54:42.373+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:54:42.373+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:54:42.389+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:54:42.421+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:54:42.421+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:54:42.449+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:54:42.449+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:54:42.482+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.116 seconds
+[2024-12-06T17:55:12.718+0000] {processor.py:186} INFO - Started process (PID=271) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:55:12.720+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:55:12.723+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:55:12.722+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:55:12.740+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:55:12.772+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:55:12.772+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:55:12.798+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:55:12.798+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:55:12.826+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.113 seconds
+[2024-12-06T17:55:43.014+0000] {processor.py:186} INFO - Started process (PID=281) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:55:43.015+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:55:43.018+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:55:43.018+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:55:43.036+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:55:43.067+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:55:43.067+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:55:43.092+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:55:43.091+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:55:43.122+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.114 seconds
+[2024-12-06T17:56:13.360+0000] {processor.py:186} INFO - Started process (PID=299) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:56:13.361+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:56:13.364+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:56:13.364+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:56:13.378+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:56:13.411+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:56:13.411+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T17:56:13.438+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:56:13.437+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T17:56:13.469+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.114 seconds
+[2024-12-06T17:56:35.690+0000] {processor.py:186} INFO - Started process (PID=309) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:56:35.691+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:56:35.693+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:56:35.693+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:56:35.705+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:56:35.703+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/scripts_etl_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/scripts_etl_dags.py", line 18
+    conn_id='spark_default',  # Você pode configurar uma conexão no Airflow, ou usar um caminho direto
+    ^
+SyntaxError: invalid syntax
+[2024-12-06T17:56:35.705+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:56:35.735+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.049 seconds
+[2024-12-06T17:57:05.981+0000] {processor.py:186} INFO - Started process (PID=320) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:57:05.982+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:57:05.984+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:57:05.983+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:57:05.993+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:57:05.992+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/scripts_etl_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/scripts_etl_dags.py", line 18
+    conn_id='spark_default',  # Você pode configurar uma conexão no Airflow, ou usar um caminho direto
+    ^
+SyntaxError: invalid syntax
+[2024-12-06T17:57:05.993+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:57:06.024+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.048 seconds
+[2024-12-06T17:57:36.264+0000] {processor.py:186} INFO - Started process (PID=339) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:57:36.265+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:57:36.267+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:57:36.267+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:57:36.281+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:57:36.280+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/scripts_etl_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/scripts_etl_dags.py", line 18
+    conn_id='spark_default',  # Você pode configurar uma conexão no Airflow, ou usar um caminho direto
+    ^
+SyntaxError: invalid syntax
+[2024-12-06T17:57:36.282+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:57:36.313+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.054 seconds
+[2024-12-06T17:58:06.595+0000] {processor.py:186} INFO - Started process (PID=351) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:58:06.596+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:58:06.597+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:58:06.597+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:58:06.607+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:58:06.606+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/scripts_etl_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/scripts_etl_dags.py", line 18
+    conn_id='spark_default',  # Você pode configurar uma conexão no Airflow, ou usar um caminho direto
+    ^
+SyntaxError: invalid syntax
+[2024-12-06T17:58:06.607+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:58:06.636+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.048 seconds
+[2024-12-06T17:58:36.841+0000] {processor.py:186} INFO - Started process (PID=361) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:58:36.842+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:58:36.844+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:58:36.844+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:58:36.856+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:58:36.855+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/scripts_etl_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/scripts_etl_dags.py", line 18
+    conn_id='spark_default',  # Você pode configurar uma conexão no Airflow, ou usar um caminho direto
+    ^
+SyntaxError: invalid syntax
+[2024-12-06T17:58:36.856+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:58:36.887+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.051 seconds
+[2024-12-06T17:59:07.141+0000] {processor.py:186} INFO - Started process (PID=373) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:59:07.142+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:59:07.143+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:59:07.143+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:59:07.154+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:59:07.153+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/scripts_etl_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/scripts_etl_dags.py", line 18
+    conn_id='spark_default',  # Você pode configurar uma conexão no Airflow, ou usar um caminho direto
+    ^
+SyntaxError: invalid syntax
+[2024-12-06T17:59:07.154+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:59:07.199+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.067 seconds
+[2024-12-06T17:59:37.464+0000] {processor.py:186} INFO - Started process (PID=386) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:59:37.465+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:59:37.467+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:59:37.466+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:59:37.483+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:59:37.482+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/scripts_etl_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/scripts_etl_dags.py", line 18
+    conn_id='spark_default',  # Você pode configurar uma conexão no Airflow, ou usar um caminho direto
+    ^
+SyntaxError: invalid syntax
+[2024-12-06T17:59:37.484+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:59:37.517+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.059 seconds
+[2024-12-06T17:59:54.690+0000] {processor.py:186} INFO - Started process (PID=397) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:59:54.691+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T17:59:54.692+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:59:54.692+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:59:54.701+0000] {logging_mixin.py:190} INFO - [2024-12-06T17:59:54.700+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/scripts_etl_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/scripts_etl_dags.py", line 18
+    conn_id='spark_default',  # Você pode configurar uma conexão no Airflow, ou usar um caminho direto
+    ^
+SyntaxError: invalid syntax
+[2024-12-06T17:59:54.701+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T17:59:54.729+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.043 seconds
+[2024-12-06T18:00:25.925+0000] {processor.py:186} INFO - Started process (PID=167) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:00:25.926+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:00:25.929+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:00:25.928+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:00:25.946+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:00:25.945+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/scripts_etl_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/scripts_etl_dags.py", line 18
+    conn_id='spark_default',  # Você pode configurar uma conexão no Airflow, ou usar um caminho direto
+    ^
+SyntaxError: invalid syntax
+[2024-12-06T18:00:25.947+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:00:25.993+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.074 seconds
+[2024-12-06T18:00:56.287+0000] {processor.py:186} INFO - Started process (PID=197) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:00:56.288+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:00:56.291+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:00:56.291+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:00:56.303+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:00:56.302+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/scripts_etl_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/scripts_etl_dags.py", line 18
+    conn_id='spark_default',  # Você pode configurar uma conexão no Airflow, ou usar um caminho direto
+    ^
+SyntaxError: invalid syntax
+[2024-12-06T18:00:56.303+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:00:56.335+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.055 seconds
+[2024-12-06T18:01:20.539+0000] {processor.py:186} INFO - Started process (PID=207) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:01:20.539+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:01:20.542+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:01:20.542+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:01:20.555+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:01:20.554+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/scripts_etl_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/scripts_etl_dags.py", line 18
+    conn_id='spark_default',  # Você pode configurar uma conexão no Airflow, ou usar um caminho direto
+    ^
+SyntaxError: invalid syntax
+[2024-12-06T18:01:20.556+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:01:20.589+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.057 seconds
+[2024-12-06T18:01:48.294+0000] {processor.py:186} INFO - Started process (PID=167) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:01:48.295+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:01:48.298+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:01:48.298+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:01:48.310+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:01:48.309+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/scripts_etl_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/scripts_etl_dags.py", line 18
+    conn_id='spark_default',  # Você pode configurar uma conexão no Airflow, ou usar um caminho direto
+    ^
+SyntaxError: invalid syntax
+[2024-12-06T18:01:48.311+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:01:48.345+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.057 seconds
+[2024-12-06T18:02:15.578+0000] {processor.py:186} INFO - Started process (PID=197) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:02:15.578+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:02:15.581+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:02:15.581+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:02:15.601+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:02:15.691+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:02:15.691+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:02:15.719+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:02:15.719+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:02:15.747+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.174 seconds
+[2024-12-06T18:02:41.908+0000] {processor.py:186} INFO - Started process (PID=167) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:02:41.909+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:02:41.911+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:02:41.911+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:02:41.927+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:02:41.958+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:02:41.958+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:02:41.993+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:02:41.993+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:02:42.019+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.118 seconds
+[2024-12-06T18:03:12.257+0000] {processor.py:186} INFO - Started process (PID=251) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:03:12.258+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:03:12.260+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:03:12.260+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:03:12.276+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:03:12.310+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:03:12.310+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:03:12.337+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:03:12.337+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:03:12.366+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.114 seconds
+[2024-12-06T18:03:42.663+0000] {processor.py:186} INFO - Started process (PID=261) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:03:42.664+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:03:42.667+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:03:42.667+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:03:42.686+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:03:42.716+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:03:42.715+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:03:42.742+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:03:42.742+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:03:42.773+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.116 seconds
+[2024-12-06T18:04:13.024+0000] {processor.py:186} INFO - Started process (PID=271) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:04:13.025+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:04:13.027+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:04:13.026+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:04:13.040+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:04:13.070+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:04:13.070+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:04:13.091+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:04:13.091+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:04:13.114+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.095 seconds
+[2024-12-06T18:04:43.383+0000] {processor.py:186} INFO - Started process (PID=281) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:04:43.384+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:04:43.387+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:04:43.387+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:04:43.403+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:04:43.434+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:04:43.434+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:04:43.463+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:04:43.463+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:04:43.489+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.111 seconds
+[2024-12-06T18:05:13.798+0000] {processor.py:186} INFO - Started process (PID=291) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:05:13.798+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:05:13.801+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:05:13.800+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:05:13.814+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:05:13.842+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:05:13.842+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:05:13.869+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:05:13.869+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:05:13.899+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.107 seconds
+[2024-12-06T18:06:09.839+0000] {processor.py:186} INFO - Started process (PID=167) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:06:09.840+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:06:09.843+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:06:09.843+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:06:09.860+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:06:09.895+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:06:09.894+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:06:09.924+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:06:09.924+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:06:09.949+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.117 seconds
+[2024-12-06T18:06:40.090+0000] {processor.py:186} INFO - Started process (PID=305) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:06:40.093+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:06:40.100+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:06:40.100+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:06:40.127+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:06:40.172+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:06:40.172+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:06:40.205+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:06:40.205+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:06:40.234+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.161 seconds
+[2024-12-06T18:07:10.416+0000] {processor.py:186} INFO - Started process (PID=319) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:07:10.417+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:07:10.423+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:07:10.423+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:07:10.451+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:07:10.505+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:07:10.505+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:07:10.547+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:07:10.546+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:07:10.583+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.176 seconds
+[2024-12-06T18:07:40.913+0000] {processor.py:186} INFO - Started process (PID=329) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:07:40.914+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:07:40.919+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:07:40.919+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:07:40.936+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:07:40.970+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:07:40.970+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:07:40.996+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:07:40.996+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:07:41.022+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.121 seconds
+[2024-12-06T18:08:11.280+0000] {processor.py:186} INFO - Started process (PID=339) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:08:11.281+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:08:11.283+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:08:11.283+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:08:11.297+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:08:11.329+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:08:11.329+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:08:11.355+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:08:11.355+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:08:11.379+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.104 seconds
+[2024-12-06T18:08:41.683+0000] {processor.py:186} INFO - Started process (PID=349) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:08:41.684+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:08:41.686+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:08:41.686+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:08:41.699+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:08:41.733+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:08:41.733+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:08:41.766+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:08:41.766+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:08:41.794+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.116 seconds
+[2024-12-06T18:09:12.051+0000] {processor.py:186} INFO - Started process (PID=359) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:09:12.053+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:09:12.057+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:09:12.056+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:09:12.080+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:09:12.119+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:09:12.119+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:09:12.159+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:09:12.159+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:09:12.193+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.152 seconds
+[2024-12-06T18:09:42.452+0000] {processor.py:186} INFO - Started process (PID=369) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:09:42.452+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:09:42.454+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:09:42.454+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:09:42.469+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:09:42.499+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:09:42.498+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:09:42.525+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:09:42.525+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:09:42.551+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.107 seconds
+[2024-12-06T18:10:12.665+0000] {processor.py:186} INFO - Started process (PID=379) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:10:12.666+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:10:12.668+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:10:12.668+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:10:12.682+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:10:12.710+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:10:12.710+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:10:12.737+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:10:12.737+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:10:12.763+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.102 seconds
+[2024-12-06T18:10:43.054+0000] {processor.py:186} INFO - Started process (PID=389) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:10:43.055+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:10:43.058+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:10:43.058+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:10:43.073+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:10:43.105+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:10:43.105+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:10:43.135+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:10:43.135+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:10:43.162+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.115 seconds
+[2024-12-06T18:11:13.445+0000] {processor.py:186} INFO - Started process (PID=399) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:11:13.446+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:11:13.448+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:11:13.448+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:11:13.466+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:11:13.499+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:11:13.499+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:11:13.527+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:11:13.527+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:11:13.557+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.118 seconds
+[2024-12-06T18:11:43.775+0000] {processor.py:186} INFO - Started process (PID=409) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:11:43.776+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:11:43.778+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:11:43.778+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:11:43.796+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:11:43.824+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:11:43.824+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:11:43.851+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:11:43.851+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:11:43.883+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.113 seconds
+[2024-12-06T18:12:14.132+0000] {processor.py:186} INFO - Started process (PID=419) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:12:14.133+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:12:14.135+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:12:14.135+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:12:14.150+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:12:14.179+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:12:14.179+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:12:14.209+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:12:14.208+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:12:14.240+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.114 seconds
+[2024-12-06T18:16:07.352+0000] {processor.py:186} INFO - Started process (PID=166) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:16:07.353+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:16:07.356+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:16:07.356+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:16:07.376+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:16:07.414+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:16:07.414+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:16:07.444+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:16:07.444+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:16:07.479+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.134 seconds
+[2024-12-06T18:16:37.786+0000] {processor.py:186} INFO - Started process (PID=313) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:16:37.788+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:16:37.790+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:16:37.790+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:16:37.806+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:16:37.837+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:16:37.837+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:16:37.865+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:16:37.864+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:16:37.892+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.113 seconds
+[2024-12-06T18:17:08.141+0000] {processor.py:186} INFO - Started process (PID=323) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:17:08.142+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:17:08.145+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:17:08.144+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:17:08.162+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:17:08.193+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:17:08.193+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:17:08.222+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:17:08.222+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:17:08.247+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.113 seconds
+[2024-12-06T18:17:38.537+0000] {processor.py:186} INFO - Started process (PID=333) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:17:38.538+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:17:38.540+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:17:38.540+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:17:38.555+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:17:38.584+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:17:38.583+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:17:38.608+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:17:38.608+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:17:38.632+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.100 seconds
+[2024-12-06T18:18:08.792+0000] {processor.py:186} INFO - Started process (PID=343) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:18:08.793+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:18:08.796+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:18:08.795+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:18:08.812+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:18:08.842+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:18:08.842+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:18:08.867+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:18:08.866+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:18:08.890+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.104 seconds
+[2024-12-06T18:18:39.149+0000] {processor.py:186} INFO - Started process (PID=353) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:18:39.150+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:18:39.153+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:18:39.152+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:18:39.170+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:18:39.201+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:18:39.201+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:18:39.231+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:18:39.231+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:18:39.265+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.124 seconds
+[2024-12-06T18:19:09.522+0000] {processor.py:186} INFO - Started process (PID=363) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:19:09.523+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:19:09.525+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:19:09.525+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:19:09.540+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:19:09.573+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:19:09.572+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:19:09.600+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:19:09.600+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:19:09.626+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.109 seconds
+[2024-12-06T18:37:11.617+0000] {processor.py:186} INFO - Started process (PID=168) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:37:11.618+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:37:11.620+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:37:11.620+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:37:11.638+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:37:11.678+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:37:11.678+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:37:11.708+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:37:11.708+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:37:11.744+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.134 seconds
+[2024-12-06T18:37:41.988+0000] {processor.py:186} INFO - Started process (PID=309) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:37:41.989+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:37:41.992+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:37:41.992+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:37:42.008+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:37:42.042+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:37:42.041+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:37:42.071+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:37:42.071+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:37:42.100+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.118 seconds
+[2024-12-06T18:38:12.408+0000] {processor.py:186} INFO - Started process (PID=431) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:38:12.409+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:38:12.411+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:38:12.411+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:38:12.429+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:38:12.459+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:38:12.459+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:38:12.490+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:38:12.490+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:38:12.514+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.113 seconds
+[2024-12-06T18:38:42.822+0000] {processor.py:186} INFO - Started process (PID=441) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:38:42.823+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:38:42.826+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:38:42.826+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:38:42.847+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:38:42.874+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:38:42.874+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:38:42.900+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:38:42.900+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:38:42.923+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.108 seconds
+[2024-12-06T18:39:13.131+0000] {processor.py:186} INFO - Started process (PID=451) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:39:13.132+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:39:13.135+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:39:13.135+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:39:13.151+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:39:13.180+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:39:13.180+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:39:13.205+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:39:13.205+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:39:13.234+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.107 seconds
+[2024-12-06T18:39:43.502+0000] {processor.py:186} INFO - Started process (PID=577) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:39:43.502+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:39:43.505+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:39:43.505+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:39:43.519+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:39:43.548+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:39:43.548+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:39:43.575+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:39:43.575+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:39:43.602+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.106 seconds
+[2024-12-06T18:40:13.862+0000] {processor.py:186} INFO - Started process (PID=591) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:40:13.863+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:40:13.866+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:40:13.865+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:40:13.881+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:40:13.911+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:40:13.911+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:40:13.936+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:40:13.936+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:40:13.961+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.105 seconds
+[2024-12-06T18:40:44.223+0000] {processor.py:186} INFO - Started process (PID=601) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:40:44.224+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:40:44.226+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:40:44.226+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:40:44.245+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:40:44.291+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:40:44.290+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:40:44.319+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:40:44.319+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:40:44.359+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.143 seconds
+[2024-12-06T18:41:14.553+0000] {processor.py:186} INFO - Started process (PID=611) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:41:14.554+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:41:14.557+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:41:14.556+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:41:14.576+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:41:14.633+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:41:14.632+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:41:14.656+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:41:14.655+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:41:14.683+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.135 seconds
+[2024-12-06T18:41:46.375+0000] {processor.py:186} INFO - Started process (PID=621) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:41:46.376+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:41:47.650+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:41:47.649+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:41:48.822+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:41:48.850+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:41:48.850+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:41:48.875+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:41:48.875+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:41:48.908+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 2.539 seconds
+[2024-12-06T18:42:19.147+0000] {processor.py:186} INFO - Started process (PID=631) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:42:19.148+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:42:19.152+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:42:19.151+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:42:19.181+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:42:19.216+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:42:19.216+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:42:19.247+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:42:19.247+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:42:19.274+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.133 seconds
+[2024-12-06T18:42:49.411+0000] {processor.py:186} INFO - Started process (PID=641) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:42:49.412+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:42:49.414+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:42:49.414+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:42:49.429+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:42:57.414+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:42:57.414+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:42:57.592+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:42:57.592+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:42:58.855+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 9.449 seconds
+[2024-12-06T18:43:29.150+0000] {processor.py:186} INFO - Started process (PID=651) to work on /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:43:29.152+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts_etl_dags.py for tasks to queue
+[2024-12-06T18:43:29.155+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:43:29.155+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:43:29.185+0000] {processor.py:925} INFO - DAG(s) 'pyspark_etl_dag' retrieved from /opt/airflow/dags/scripts_etl_dags.py
+[2024-12-06T18:43:29.263+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:43:29.262+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T18:43:29.328+0000] {logging_mixin.py:190} INFO - [2024-12-06T18:43:29.328+0000] {dag.py:4180} INFO - Setting next_dagrun for pyspark_etl_dag to 2024-12-06T00:00:00+00:00, run_after=2024-12-07T00:00:00+00:00
+[2024-12-06T18:43:29.374+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts_etl_dags.py took 0.234 seconds

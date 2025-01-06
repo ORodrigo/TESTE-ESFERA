@@ -1,0 +1,83 @@
+[2024-12-06T17:15:34.395+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-06T17:15:34.419+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pyspark_etl_dag.run_pyspark_etl manual__2024-12-06T17:15:33.418386+00:00 [queued]>
+[2024-12-06T17:15:34.427+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pyspark_etl_dag.run_pyspark_etl manual__2024-12-06T17:15:33.418386+00:00 [queued]>
+[2024-12-06T17:15:34.428+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-12-06T17:15:34.438+0000] {taskinstance.py:2889} INFO - Executing <Task(SparkSubmitOperator): run_pyspark_etl> on 2024-12-06 17:15:33.418386+00:00
+[2024-12-06T17:15:34.442+0000] {standard_task_runner.py:72} INFO - Started process 226 to run task
+[2024-12-06T17:15:34.444+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'pyspark_etl_dag', 'run_pyspark_etl', 'manual__2024-12-06T17:15:33.418386+00:00', '--job-id', '21', '--raw', '--subdir', 'DAGS_FOLDER/scripts_etl_dags.py', '--cfg-path', '/tmp/tmpl_0kiziq']
+[2024-12-06T17:15:34.447+0000] {standard_task_runner.py:105} INFO - Job 21: Subtask run_pyspark_etl
+[2024-12-06T17:15:34.471+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.9/site-packages/***/settings.py:209 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2024-12-06T17:15:34.528+0000] {task_command.py:467} INFO - Running <TaskInstance: pyspark_etl_dag.run_pyspark_etl manual__2024-12-06T17:15:33.418386+00:00 [running]> on host 6c4b3eed4205
+[2024-12-06T17:15:34.644+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='pyspark_etl_dag' AIRFLOW_CTX_TASK_ID='run_pyspark_etl' AIRFLOW_CTX_EXECUTION_DATE='2024-12-06T17:15:33.418386+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-06T17:15:33.418386+00:00'
+[2024-12-06T17:15:34.646+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-06T17:15:34.677+0000] {base.py:84} INFO - Retrieving connection 'spark_default'
+[2024-12-06T17:15:34.679+0000] {spark_submit.py:473} INFO - Spark-Submit cmd: spark-submit --master yarn --conf spark.executor.memory=2g --conf spark.driver.memory=2g --name arrow-spark --queue root.default /opt/***/scripts/script_etl.py
+[2024-12-06T17:15:34.688+0000] {spark_submit.py:634} INFO - /usr/local/spark/bin/load-spark-env.sh: line 68: ps: command not found
+[2024-12-06T17:15:35.852+0000] {spark_submit.py:634} INFO - Exception in thread "main" org.apache.spark.SparkException: When running with master 'yarn' either HADOOP_CONF_DIR or YARN_CONF_DIR must be set in the environment.
+[2024-12-06T17:15:35.854+0000] {spark_submit.py:634} INFO - at org.apache.spark.deploy.SparkSubmitArguments.error(SparkSubmitArguments.scala:650)
+[2024-12-06T17:15:35.855+0000] {spark_submit.py:634} INFO - at org.apache.spark.deploy.SparkSubmitArguments.validateSubmitArguments(SparkSubmitArguments.scala:281)
+[2024-12-06T17:15:35.856+0000] {spark_submit.py:634} INFO - at org.apache.spark.deploy.SparkSubmitArguments.validateArguments(SparkSubmitArguments.scala:237)
+[2024-12-06T17:15:35.857+0000] {spark_submit.py:634} INFO - at org.apache.spark.deploy.SparkSubmitArguments.<init>(SparkSubmitArguments.scala:122)
+[2024-12-06T17:15:35.857+0000] {spark_submit.py:634} INFO - at org.apache.spark.deploy.SparkSubmit$$anon$2$$anon$3.<init>(SparkSubmit.scala:1094)
+[2024-12-06T17:15:35.858+0000] {spark_submit.py:634} INFO - at org.apache.spark.deploy.SparkSubmit$$anon$2.parseArguments(SparkSubmit.scala:1094)
+[2024-12-06T17:15:35.858+0000] {spark_submit.py:634} INFO - at org.apache.spark.deploy.SparkSubmit.doSubmit(SparkSubmit.scala:86)
+[2024-12-06T17:15:35.859+0000] {spark_submit.py:634} INFO - at org.apache.spark.deploy.SparkSubmit$$anon$2.doSubmit(SparkSubmit.scala:1111)
+[2024-12-06T17:15:35.859+0000] {spark_submit.py:634} INFO - at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:1120)
+[2024-12-06T17:15:35.860+0000] {spark_submit.py:634} INFO - at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)
+[2024-12-06T17:15:35.888+0000] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/apache/spark/operators/spark_submit.py", line 176, in execute
+    self._hook.submit(self.application)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/apache/spark/hooks/spark_submit.py", line 560, in submit
+    raise AirflowException(
+airflow.exceptions.AirflowException: Cannot execute: spark-submit --master yarn --conf spark.executor.memory=2g --conf spark.driver.memory=2g --name arrow-spark --queue root.default /opt/***/scripts/script_etl.py. Error code is: 1.
+[2024-12-06T17:15:35.892+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=pyspark_etl_dag, task_id=run_pyspark_etl, run_id=manual__2024-12-06T17:15:33.418386+00:00, execution_date=20241206T171533, start_date=20241206T171534, end_date=20241206T171535
+[2024-12-06T17:15:35.926+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-06T17:15:35.927+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 21 for task run_pyspark_etl (Cannot execute: spark-submit --master yarn --conf spark.executor.memory=2g --conf spark.driver.memory=2g --name arrow-spark --queue root.default /opt/***/scripts/script_etl.py. Error code is: 1.; 226)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/apache/spark/operators/spark_submit.py", line 176, in execute
+    self._hook.submit(self.application)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/apache/spark/hooks/spark_submit.py", line 560, in submit
+    raise AirflowException(
+airflow.exceptions.AirflowException: Cannot execute: spark-submit --master yarn --conf spark.executor.memory=2g --conf spark.driver.memory=2g --name arrow-spark --queue root.default /opt/***/scripts/script_etl.py. Error code is: 1.
+[2024-12-06T17:15:35.943+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-12-06T17:15:35.966+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-06T17:15:35.968+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
